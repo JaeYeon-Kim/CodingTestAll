@@ -2,7 +2,8 @@ package com.kjy.kotlingrammer.codingtest
 
 fun main() {
     val solve = Solution()
-    println(solve.solution("110010101001").joinToString())
+    val result = solve.solution(intArrayOf(1, 8, 3))
+    println(result.joinToString())
 }
 
 
