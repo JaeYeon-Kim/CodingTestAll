@@ -2,8 +2,7 @@ package com.kjy.kotlingrammer.codingtest
 
 fun main() {
     val solve = Solution()
-    val result = solve.solution("PrOgRaMmErS")
-    println(result)
+    val result = solve.solution(arrayOf("problemsolving", "practiceguitar", "swim", "studygraph"), booleanArrayOf(true, false, true, false))
 }
 
 
